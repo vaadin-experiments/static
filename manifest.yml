@@ -1,11 +1,11 @@
 ---
 applications:
-  - name: static
+  - name: static-master
     memory: 32M
     disk_quota: 75M  
     instances: 1
     buildpacks:
       - https://github.com/cloudfoundry/staticfile-buildpack
     path: www
-    random-route: true
+    #random-route: true
     
